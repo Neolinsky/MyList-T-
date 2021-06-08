@@ -25,9 +25,8 @@ namespace ConsoleApp21
 			Console.WriteLine();
 			Console.WriteLine();
 			Console.WriteLine();
-			Console.WriteLine();
 
-			spisok.PrintBack();
+			Console.WriteLine(spisok.Get(1)); 
 
 		}
 	}

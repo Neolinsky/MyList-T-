@@ -13,24 +13,32 @@ namespace ConsoleApp21
 		public Node<T> tail;
 
 		public Node<T> prev;
-
+		public int id = 0;
 
 		public void Add(Node<T> NewNode)
 		{
-			Node<T>.Count++;
+			
 			if(list != null)
 			{
+
+				id++;
 				GetLast().next = NewNode;
+				GetLast().SetId(id);
+
 
 				GetLast().prev =  prev;
 
 				tail = GetLast();
 				prev = tail;
-			
+
+				
 				return;
 			}
 
 			list = NewNode;
+			list.id = id;
+			id++;
+
 			head = list;
 			tail = list;
 			prev = list;
@@ -65,7 +73,7 @@ namespace ConsoleApp21
 			{
 				Console.WriteLine(Tail.value);
 				Tail = Tail.prev;
-			}
+			}			
 		}
 
 
@@ -78,6 +86,21 @@ namespace ConsoleApp21
 			head = node;
 		}
 
+
+
+		public T Get(int id)
+		{
+			
+			Node<T> Head = head;
+
+			for (int i = 0; i < id; i++)
+			{
+				Head = Head.next;
+				
+			}
+
+			return Head.value;
+		}
 
 	}
 }

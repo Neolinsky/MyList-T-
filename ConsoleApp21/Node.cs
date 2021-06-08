@@ -9,9 +9,15 @@ namespace ConsoleApp21
 		public T value;
 		public Node<T> next;
 		public Node<T> prev;
+		public int id;
+
+		public void SetId(int id)
+		{
+			this.id = id;
+		}
 
 
-		public static int Count;
+		public static int Count = 0;
 
 		public Node(T value)
 		{
