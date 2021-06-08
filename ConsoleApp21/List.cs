@@ -102,5 +102,21 @@ namespace ConsoleApp21
 			return Head.value;
 		}
 
+
+		public void Remove(int id)
+		{
+			Node<T> Head = head;
+			Node<T> OneAhead;
+			for (int i = 0; i < id; i++)
+			{
+				Head = Head.next;
+			}
+			
+			OneAhead = Head.next;
+			Head = Head.prev;
+			Head.next = OneAhead;
+
+		}
+
 	}
 }
