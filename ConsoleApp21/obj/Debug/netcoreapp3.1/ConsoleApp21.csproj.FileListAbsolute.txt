@@ -1,0 +1,16 @@
+C:\Users\student\source\repos\ConsoleApp21\ConsoleApp21\bin\Debug\netcoreapp3.1\ConsoleApp21.exe
+C:\Users\student\source\repos\ConsoleApp21\ConsoleApp21\bin\Debug\netcoreapp3.1\ConsoleApp21.deps.json
+C:\Users\student\source\repos\ConsoleApp21\ConsoleApp21\bin\Debug\netcoreapp3.1\ConsoleApp21.runtimeconfig.json
+C:\Users\student\source\repos\ConsoleApp21\ConsoleApp21\bin\Debug\netcoreapp3.1\ConsoleApp21.runtimeconfig.dev.json
+C:\Users\student\source\repos\ConsoleApp21\ConsoleApp21\bin\Debug\netcoreapp3.1\ConsoleApp21.dll
+C:\Users\student\source\repos\ConsoleApp21\ConsoleApp21\bin\Debug\netcoreapp3.1\ConsoleApp21.pdb
+C:\Users\student\source\repos\ConsoleApp21\ConsoleApp21\obj\Debug\netcoreapp3.1\ConsoleApp21.csprojAssemblyReference.cache
+C:\Users\student\source\repos\ConsoleApp21\ConsoleApp21\obj\Debug\netcoreapp3.1\ConsoleApp21.AssemblyInfoInputs.cache
+C:\Users\student\source\repos\ConsoleApp21\ConsoleApp21\obj\Debug\netcoreapp3.1\ConsoleApp21.AssemblyInfo.cs
+C:\Users\student\source\repos\ConsoleApp21\ConsoleApp21\obj\Debug\netcoreapp3.1\ConsoleApp21.csproj.CoreCompileInputs.cache
+C:\Users\student\source\repos\ConsoleApp21\ConsoleApp21\obj\Debug\netcoreapp3.1\ConsoleApp21.dll
+C:\Users\student\source\repos\ConsoleApp21\ConsoleApp21\obj\Debug\netcoreapp3.1\ConsoleApp21.pdb
+C:\Users\student\source\repos\ConsoleApp21\ConsoleApp21\obj\Debug\netcoreapp3.1\ConsoleApp21.genruntimeconfig.cache
+C:\Users\student\source\repos\ConsoleApp21\ConsoleApp21\bin\Debug\netcoreapp3.1\DocumentFormat.OpenXml.dll
+C:\Users\student\source\repos\ConsoleApp21\ConsoleApp21\bin\Debug\netcoreapp3.1\System.IO.Packaging.dll
+C:\Users\student\source\repos\ConsoleApp21\ConsoleApp21\obj\Debug\netcoreapp3.1\ConsoleApp21.csproj.CopyComplete
