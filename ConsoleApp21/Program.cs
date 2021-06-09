@@ -1,4 +1,4 @@
-﻿using System;
+﻿   using System;
 using System.Text;
 
 namespace ConsoleApp21
@@ -32,16 +32,40 @@ namespace ConsoleApp21
 			Console.WriteLine();
 			Console.WriteLine();
 
-			spisok.Remove(3);
+
+
+            Console.WriteLine(	);
+
+
+			spisok.InsertAfter(new Node<int>(123), 3);
+
+            Console.WriteLine(spisok.Remove(2));
+            Console.WriteLine();
+            Console.WriteLine();
 
 			spisok.Print();
 
 			Console.WriteLine();
+			Console.WriteLine();
 
 
-		
+            Console.WriteLine(spisok.PopFront());
+            Console.WriteLine();
+
+			spisok.Print();
 
 
+            Console.WriteLine();
+			Console.WriteLine();
+
+
+
+            Console.WriteLine(spisok.PopBack());
+
+            Console.WriteLine();
+			Console.WriteLine();
+
+			spisok.Print();
 
 		}
 	}

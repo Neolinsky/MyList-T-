@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\student\\source\\repos\\ConsoleApp21\\ConsoleApp21\\ConsoleApp21.csproj": {}
+    "C:\\Users\\User\\Source\\Repos\\MyList-T-\\ConsoleApp21\\ConsoleApp21.csproj": {}
   },
   "projects": {
-    "C:\\Users\\student\\source\\repos\\ConsoleApp21\\ConsoleApp21\\ConsoleApp21.csproj": {
+    "C:\\Users\\User\\Source\\Repos\\MyList-T-\\ConsoleApp21\\ConsoleApp21.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\student\\source\\repos\\ConsoleApp21\\ConsoleApp21\\ConsoleApp21.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\MyList-T-\\ConsoleApp21\\ConsoleApp21.csproj",
         "projectName": "ConsoleApp21",
-        "projectPath": "C:\\Users\\student\\source\\repos\\ConsoleApp21\\ConsoleApp21\\ConsoleApp21.csproj",
-        "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\student\\source\\repos\\ConsoleApp21\\ConsoleApp21\\obj\\",
+        "projectPath": "C:\\Users\\User\\Source\\Repos\\MyList-T-\\ConsoleApp21\\ConsoleApp21.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Source\\Repos\\MyList-T-\\ConsoleApp21\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -30,7 +30,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -42,7 +41,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "DocumentFormat.OpenXml": {
               "target": "Package",
@@ -64,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

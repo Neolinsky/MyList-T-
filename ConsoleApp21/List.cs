@@ -15,6 +15,7 @@ namespace ConsoleApp21
 		public Node<T> prev;
 		public int id = 0;
 
+		
 		public void Add(Node<T> NewNode)
 		{
 			
@@ -90,33 +91,105 @@ namespace ConsoleApp21
 
 		public T Get(int id)
 		{
-			
 			Node<T> Head = head;
-
+			
 			for (int i = 0; i < id; i++)
 			{
 				Head = Head.next;
-				
-			}
 
+			}
 			return Head.value;
 		}
 
 
-		public void Remove(int id)
+		public  T  Remove(int id)
 		{
+
+			T valueToReturn;
+			
 			Node<T> Head = head;
 			Node<T> OneAhead;
 			for (int i = 0; i < id; i++)
 			{
 				Head = Head.next;
 			}
-			
+
+			valueToReturn = Head.value;
+
 			OneAhead = Head.next;
 			Head = Head.prev;
-			Head.next = OneAhead;
+		    Head.next = OneAhead;
 
+			return valueToReturn;
+			
 		}
+
+		public void InsertBefore(Node<T> newNode, int id)
+		{
+			Node<T> node = newNode;
+			Node<T> Head = head;
+			Node<T> IdedElement;
+
+			
+			for (int i = 0; i < id - 1; i++)
+			{
+				Head = Head.next;
+			}
+
+			IdedElement = Head.next;
+
+			Head.next = node;
+			node.next = IdedElement;
+		}
+
+
+		public void InsertAfter(Node<T> NewNode, int id)
+		{
+			Node<T> node = NewNode;
+			Node<T> Head = head;
+			Node<T> nextElement;
+
+
+			for (int i = 0; i < id + 1; i++)
+			{
+				Head = Head.next;
+			}
+
+			nextElement = Head;
+
+			Head = Head.prev;
+
+			Head.next = node;
+
+			node.next = nextElement;
+		}
+
+
+		public T PopFront()
+        {
+			T valueToReturn;
+
+			valueToReturn = head.value;
+
+			head = head.next;
+			head.prev = null;
+
+			return valueToReturn;
+        }
+
+
+		public T PopBack()
+        {
+			T valueToReturn;
+
+			valueToReturn = tail.value;
+
+			tail = tail.prev;
+			tail.next = null;
+
+			return valueToReturn;
+        }
+
 
 	}
 }
