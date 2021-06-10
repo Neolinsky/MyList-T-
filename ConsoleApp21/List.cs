@@ -191,5 +191,50 @@ namespace ConsoleApp21
         }
 
 
+
+		public int Search(T valueToSearch)
+		{
+			Node<T> Head = head;
+			int id = -1;
+
+			while (Head != null)
+			{
+				if (Head == tail)
+				{
+					if (Head.value.Equals(valueToSearch))
+					{
+						id = Head.id;
+						break;
+					}
+					else
+					{
+						break;
+					}
+				}
+
+				else
+				{
+					if (Head.value.Equals(valueToSearch))
+					{
+						id = Head.id;
+						break;
+					}
+					else
+					{
+						Head = Head.next;
+					}
+				}		
+			}
+
+			Console.WriteLine();
+
+			if(id <= 0)
+			{
+				Console.WriteLine($"Id of value to search: {id}");
+			}
+
+			return id;
+		}
+
 	}
 }
